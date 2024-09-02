@@ -55,7 +55,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-main
+.main-container
 {
     display: flex;
     justify-content: space-evenly;
@@ -67,7 +67,6 @@ main
     display: block;
     max-width: 600px;
     align-items: left;
-    height: 50%;
 }
 .left-column h2
 {
