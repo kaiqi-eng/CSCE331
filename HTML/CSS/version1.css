@@ -14,7 +14,14 @@ body {
     background-color: #313735;
     color: #ffffffea;
   }
-
+ a{
+    color: #00f06cd5;
+    text-decoration: none;
+}
+a:hover{
+    color: #00f06cd5;
+    text-decoration: underline;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -63,6 +70,11 @@ nav ul li a:hover {
     max-width: 100%;
     padding: 50px 0px;   
 }
+.main-container img
+{
+    width: 500px;
+    height: auto;
+}
 .left-column{
     display: block;
     max-width: 600px;
@@ -74,14 +86,6 @@ nav ul li a:hover {
 }
 .left-column p{
     font-size: 30px;
-}
-.left-column p a{
-    color: #00f06cd5;
-    text-decoration: none;
-}
-.left-column p a:hover{
-    color: #00f06cd5;
-    text-decoration: underline;
 }
 .right-column
 {
@@ -107,6 +111,60 @@ main section
 main section h3
 {
     text-align: center;
+}
+main section p
+{
+    font-size: large;
+}
+main h1
+{
+    padding: 20px 20px;
+}
+main h2
+{
+    padding: 20px 20px;
+}
+
+.projectspost
+{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    
+}
+.textdescription
+{
+    flex: 1;
+    margin-right: 20px;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.textdescription p a{
+    color: #00f06cd5;
+    text-decoration: none;
+}
+.textdescription p a:hover{
+    color: #00f06cd5;
+    text-decoration: underline;
+}
+.projectimage
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.projectimage img{
+    width: 200px;
+}
+.service
+{
+    display: block;
+    padding: 20px 20px;
+}
+.service p
+{
+    padding: 20px 20px;
+    font-size: large;
 }
 footer {
     background-color: #020310;

@@ -1,0 +1,120 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px; /* Rounded corners for header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+    border-radius: 5px; /* Rounded corners for nav links */
+    padding: 5px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #6a1b9a, #ab47bc);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 0 0 20px 20px; /* Rounded bottom corners for hero section */
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.cta {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px; /* Rounded corners for CTA button */
+}
+
+.blog-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-highlights article {
+    background-color: #ffffff; /* White background for articles */
+    border-radius: 12px; /* Rounded corners for articles */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 20px;
+    width: calc(33.333% - 20px); /* Responsive layout for three columns */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.blog-highlights article:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.blog-highlights article h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.blog-highlights article p {
+    color: #555;
+}
+
+.blog-highlights article a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.blog-highlights article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 12px; /* Rounded corners for footer */
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .blog-highlights article {
+        width: calc(50% - 20px); /* Two columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-highlights article {
+        width: 100%; /* Single column on very small screens */
+    }
+}
