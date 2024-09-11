@@ -7,13 +7,16 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Kaiqi Yang">
     <title>Your Page Title</title>
-    <link rel="stylesheet" href="CSS/version1.css"> <!-- Link to an external CSS file -->
+    <link id="cssSheet" rel="stylesheet" href="CSS/version1.css"> <!-- Link to an external CSS file -->
+    <script src="versionbutton.js"></script>
 </head>
 <body>
     <header>
         <h1><a href="index.html">Kaiqi Yang</a></h1>
         <nav>
             <ul>
+                <li><button onclick="toggle('CSS/version1.css')">Version 1</button></li>
+                <li><button onclick="toggle('CSS/version2.css')">Version 2</button></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="qualifications.html">Qualifications</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -26,17 +29,7 @@
     <main>
         <div class = "service">
             <h1>Servicing the community</h1>
-            <p>AI generated placeholder: Giving back to the community is a deeply rewarding endeavor that aligns with my personal values and professional aspirations. As someone with a strong background in technology, particularly in programming languages like C++, Python, and Java, and a keen interest in machine learning and backend design, I am excited about leveraging these skills to make a positive impact.
-
-                One way I plan to contribute is by providing mentorship and educational support to aspiring young developers and students. By organizing coding workshops, hackathons, and tech talks, I aim to share my knowledge and experiences with those eager to learn. These initiatives can help demystify technology and inspire the next generation of innovators, particularly those from underrepresented or underserved communities. Mentoring students on best practices in coding, problem-solving techniques, and career development can provide them with valuable guidance and confidence as they embark on their tech journeys.
-                
-                Additionally, I am passionate about using technology to address social issues. Developing machine learning models to tackle problems such as healthcare diagnostics, environmental monitoring, or educational disparities is a powerful way to give back. For instance, creating predictive models that help identify patterns in disease outbreaks or developing algorithms that enhance educational tools for students with special needs can have a significant and tangible impact on society.
-                
-                In the realm of backend design, I see an opportunity to contribute by developing open-source projects that benefit community organizations or non-profits. These projects could include creating scalable databases or designing efficient server architectures that help organizations manage their resources more effectively. By providing robust technical solutions to non-profits, I can help them operate more efficiently and focus on their core missions.
-                
-                Furthermore, I plan to engage in volunteer work with tech-focused charities or initiatives that aim to bridge the digital divide. Participating in programs that provide technology access and training to underserved communities can help ensure that more people have the skills and tools necessary to thrive in the digital age.
-                
-                Ultimately, my approach to giving back is rooted in a commitment to leveraging my technical expertise to drive positive change. By mentoring, developing impactful technology solutions, and supporting community initiatives, I hope to contribute to a more equitable and innovative future.</p>
+            <p>With my skills in programming and software development, I aim to give back to my community through teaching valuable programming skills and creating applications that benefit others. In regards to teaching others, I enjoy mentoring my peers and others through breaking down complex concepts and answering any questions about them. I have plans to offer free lessons on technical topics sometime in the future once I am settled down within the industry. As for utilizing my software development skills to give back to the community, I would like to work for <a href="https://www.khanacademy.org/">Khan Academy</a> or other similar organizations / companies in order to provide free and accessible education for others. This is because I have personally benefited from such services and see the immense value in providing free and accessible education on the internet. My end goal is to contribute to platforms that democratize learning, especially in technical fields.</p>
         </div>
     </main>
 

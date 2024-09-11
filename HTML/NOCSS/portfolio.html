@@ -7,13 +7,16 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Kaiqi Yang">
     <title>Your Page Title</title>
-    <link rel="stylesheet" href="CSS/version1.css"> <!-- Link to an external CSS file -->
+    <link id="cssSheet" rel="stylesheet" href="CSS/version1.css"> <!-- Link to an external CSS file -->
+    <script src="versionbutton.js"></script>
 </head>
 <body>
     <header>
         <h1><a href="index.html">Kaiqi Yang</a></h1>
         <nav>
             <ul>
+                <li><button onclick="toggle('CSS/version1.css')">Version 1</button></li>
+                <li><button onclick="toggle('CSS/version2.css')">Version 2</button></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="qualifications.html">Qualifications</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -40,7 +43,7 @@
                 <a href="https://github.com/kaiqi-eng/ProjectPlaceholder"><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Google_Sheets_2020_Logo.svg" alt="google sheets"></a>
             </div>
             <div class = "textdescription">
-                <p>This will be a spreadsheet application bulit for planning and managing hotel, restaurant, or other reservations while on vacation.It will be bulit in <a href="https://workspace.google.com/products/sheets/">Google Sheets</a>. It is possible to convert into a mobile app for use on the go. the(this has not been bulit yet)</p>
+                <p>This will be a spreadsheet application bulit for planning and managing hotel, restaurant, or other reservations while on vacation.It will be bulit in <a href="https://workspace.google.com/products/sheets/">Google Sheets</a>. It is possible to convert into a mobile app for use on the go. (this has not been bulit yet)</p>
             </div>
         </div>
         
